@@ -1,0 +1,72 @@
+body {
+  color: rgb(24, 133, 91);
+  background-color: rgb(24, 24, 24);
+  
+}
+
+p {
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;  
+    font-size: 5vh;
+}
+
+.color,
+.btn {
+  margin-top: 20px;
+}
+
+.btn {
+  border: 0px none;
+  border-radius: 10px;
+  font-family: Arial;
+  background-color: rgb(24, 133, 91);
+  color: rgb(24, 24, 24);
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+
+}
+
+.color {
+  padding: 0px;
+  border: 0px none;
+  width: 50px;
+  height: 50px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.container {
+  height: 80vh;
+  width: 160vh;
+  border: solid 5px rgb(24, 133, 91);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.cell {
+  background-color: white;
+  height: 1vh;
+  width: 1vh;
+}
+
+.color {
+  padding: 0px;
+
+}
